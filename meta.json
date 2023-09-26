@@ -1,0 +1,240 @@
+{
+    "data": {
+        "project": {
+            "apiComponents": {
+                "ApiContainer": {
+                    "id": "ApiContainer",
+                    "children": []
+                }
+            },
+            "assets": {
+                "6512329d3d56a0717749cd95": {
+                    "externalStorageType": "GCS",
+                    "_id": "6512329d3d56a0717749cd95",
+                    "size": "60471",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "amergam-logo.png",
+                    "backendURI": "/project/6509aebec1b64a967cd3f0d6/getasset/6512329d3d56a0717749cd95",
+                    "name": "amergam-logo.png",
+                    "externalName": "users/64f9cfdd9e1206d13102d175/projects/6509aebec1b64a967cd3f0d6/assets/6512329d3d56a0717749cd95",
+                    "createdAt": "2023-09-26T01:23:41.497Z",
+                    "updatedAt": "2023-09-26T01:23:41.497Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfdd9e1206d13102d175/projects/6509aebec1b64a967cd3f0d6/assets/6512329d3d56a0717749cd95?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230926%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230926T012341Z&X-Goog-Expires=172800&X-Goog-SignedHeaders=host&X-Goog-Signature=9f4138594128d0d5005f3ef9b9fc60c05bc3a0e44bfeb318b4f65c48fb6e8b9853df7f1320401282dbb620498e0a7a8d5c348131dd19f2c7f1c7b83efbb1add26d186ac8c8cf8feb4e136580b6a574782108d1dbac04293bdf11d10f8598c7c2c7cb2b9e77aa317a2ca969773e620f5a2564429184466c48c9095503d5f0f2fc1db75b17c584a48f34d0459ae03dd2dc1102de598f1444683921e89f431bc85fb4c59001c57c9794a119f1a75925f17ce94442afc730faeee1f996961ecc768e1ba3691721abad835fb8f8e2babaeb1db05e80663381e3eb0eb4ad40489825a432cf7c475b4a91973d267829ad882bd0cafd72ab5fd08f3aaf31ddbdb657aad8",
+                    "signedUrlExpirationTime": 1695864221533
+                },
+                "651233863d56a042d749d51e": {
+                    "externalStorageType": "GCS",
+                    "_id": "651233863d56a042d749d51e",
+                    "size": "60471",
+                    "mimetype": "image/png",
+                    "encoding": "7bit",
+                    "originalname": "amergamlogo.png",
+                    "backendURI": "/project/6509aebec1b64a967cd3f0d6/getasset/651233863d56a042d749d51e",
+                    "name": "amergamlogo.png",
+                    "externalName": "users/64f9cfdd9e1206d13102d175/projects/6509aebec1b64a967cd3f0d6/assets/651233863d56a042d749d51e",
+                    "createdAt": "2023-09-26T01:27:34.969Z",
+                    "updatedAt": "2023-09-26T01:27:34.969Z",
+                    "__v": 0,
+                    "signedUrl": "https://storage.googleapis.com/thunkable-x-production/users/64f9cfdd9e1206d13102d175/projects/6509aebec1b64a967cd3f0d6/assets/651233863d56a042d749d51e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=thunkable-ios%40thunkable-ios.iam.gserviceaccount.com%2F20230926%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20230926T012735Z&X-Goog-Expires=172799&X-Goog-SignedHeaders=host&X-Goog-Signature=7cd207519a129dfe6ad55e14c94b8ef99243c3a41548c01193c23e6fddb947d88107235ab8dd3a3f7a60ea2e8fa4d7a177d8d6138031ba0f7726c10a79544b651abe427ec842e6e3a8462096c5547e43b082db5c4c5f48189968ee81bcd33329dccb84f0cfa0e2d0ac49b67b8e15e0de61f29e1f5cda9f9e408d039a08ff99a4b6376e4382e10d872bd3b6953bdd509ee3f3a70e9f63904ef3a6b65a8359345bf8b582b63c53b26edf60b6c798f56b5fda4f003c1173cbd15fffff24c6eaf7f67e44fd6ad57988d17b752b8ae2a9880081877241bd4f55f580b169c9ac8e5ae1caf9e1714b3518e85d79383d4b89af486f72b057959aba41547bbdcc31308ad2",
+                    "signedUrlExpirationTime": 1695864454999
+                }
+            },
+            "backendUpgradeVersion": 21,
+            "blockly": {
+                "837f7763-2338-4966-9b87-7e7129e4f51c": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "a5630ff4-e555-4a92-8543-854846763146": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [],
+                        "ios": []
+                    }
+                },
+                "6509aebec1b64a967cd3f0d6": {},
+                "68614c0c-24bf-4adc-9f21-566aa598934d": {
+                    "xml": "",
+                    "permissions": {
+                        "android": [
+                            "android.permission.CAMERA"
+                        ],
+                        "ios": [
+                            {
+                                "name": "NSCameraUsageDescription",
+                                "label": "Camera",
+                                "hint": "Describe why your app uses the camera."
+                            },
+                            {
+                                "name": "NSPhotoLibraryUsageDescription",
+                                "label": "Photos",
+                                "hint": "Describe why your app uses photos."
+                            }
+                        ]
+                    }
+                }
+            },
+            "categories": [
+                "Utilities"
+            ],
+            "components": {
+                "children": [
+                    "Sign Up Screen.837f7763-2338-4966-9b87-7e7129e4f51c",
+                    "profile Screen.68614c0c-24bf-4adc-9f21-566aa598934d",
+                    "Sign Out screen.a5630ff4-e555-4a92-8543-854846763146"
+                ]
+            },
+            "figmaComponents": {},
+            "description": null,
+            "icon": null,
+            "projectName": "Sign in Store Details",
+            "settings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyDHQBS1IrxegKtXAUck8thEyTKXD3jRtA4",
+                "firebaseDatabaseURL": "https://profileapp-b2455-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "projectSettings": {
+                "teamId": null,
+                "appName": null,
+                "icon": null,
+                "autoIncrementVersion": true,
+                "ignoreNotchArea": false,
+                "notchAreaColor": null,
+                "androidVersionName": "1",
+                "androidVersionCode": 1,
+                "iosVersionNumber": "1",
+                "iosBuildNumber": "1",
+                "firebaseAPIKey": "AIzaSyDHQBS1IrxegKtXAUck8thEyTKXD3jRtA4",
+                "firebaseDatabaseURL": "https://profileapp-b2455-default-rtdb.firebaseio.com",
+                "stripePublishableKeyTest": null,
+                "stripePublishableKeyLive": null,
+                "stripeAccountId": null,
+                "stripeTestMode": true,
+                "isPublic": true,
+                "description": null,
+                "mobileTutorial": null,
+                "pushNotificationAndroidAppId": null,
+                "pushNotificationIOSAppId": null,
+                "pushNotificationGeolocationEnabled": null,
+                "yandexAPIKey": null,
+                "imageRecognizerServerURL": null,
+                "imageRecognizerSubscriptionKey": null,
+                "cloudName": null,
+                "cloudinaryAPIKey": null,
+                "cloudinaryAPISecret": null,
+                "permissions": {
+                    "ios": {
+                        "usageDescriptions": {
+                            "NSCameraUsageDescription": "",
+                            "NSPhotoLibraryUsageDescription": ""
+                        }
+                    }
+                },
+                "googleMapAPIKeyAndroid": null,
+                "googleMapAPIKeyIOS": null,
+                "googleOAuthiOSClientID": null,
+                "googleOAuthiOSURLScheme": null,
+                "googleOAuthWebClientID": null,
+                "appleOAuthWebClientID": null,
+                "appleOAuthWebRedirectURI": null,
+                "admobAppIdIOS": null,
+                "admobAppIdAndroid": null,
+                "admobUserTrackingUsageDescription": null,
+                "__typename": "ProjectSettings"
+            },
+            "hasAdmob": false,
+            "hasBluetoothLowEnergy": null,
+            "hasPushNotification": false,
+            "hasAssistant": null,
+            "dataSourceLinks": [],
+            "localDataSources": [],
+            "customProperties": [],
+            "modules": [],
+            "usesDragDropUi": true,
+            "totalCopy": "0",
+            "totalStar": "0",
+            "starAction": "star",
+            "variables": {
+                "4187cefc-6a8e-4c27-9126-88f3e6a758c3": {
+                    "scope": "APP",
+                    "name": "CurrentlySigningUp",
+                    "screenId": "837f7763-2338-4966-9b87-7e7129e4f51c"
+                },
+                "a6eca55c-fed5-4422-a4d8-cb0eca3cfd1c": {
+                    "scope": "STORED",
+                    "name": "email",
+                    "screenId": "837f7763-2338-4966-9b87-7e7129e4f51c"
+                },
+                "16fcb358-8cb3-49db-908c-dc2b3fab35e8": {
+                    "scope": "STORED",
+                    "name": "password",
+                    "screenId": "837f7763-2338-4966-9b87-7e7129e4f51c"
+                },
+                "5e93ad6a-a011-4b43-8575-1051b0bf06a7": {
+                    "scope": "APP",
+                    "name": "Session email",
+                    "screenId": "837f7763-2338-4966-9b87-7e7129e4f51c"
+                },
+                "6bba6c61-b6ac-480d-9bea-f38d36482bae": {
+                    "scope": "APP",
+                    "name": "user ID",
+                    "screenId": "837f7763-2338-4966-9b87-7e7129e4f51c"
+                }
+            },
+            "defaultDesignerDevice": "PHONE",
+            "defaultDesignerOrientation": "PORTRAIT",
+            "schemaVersion": 2,
+            "organization": null,
+            "__typename": "Project"
+        }
+    }
+}
