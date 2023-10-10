@@ -55,6 +55,52 @@
     },
     "children": [
         {
+            "type": "Image",
+            "translatedName": "Image",
+            "properties": {
+                "Picture": "amergamlogo.png",
+                "resizeMode": "stretch",
+                "Height": 70,
+                "Width": 260,
+                "Visible": true,
+                "X": 57,
+                "Y": 13,
+                "RelativeX": 57,
+                "RelativeY": 13,
+                "ResizeMode": "STRETCH",
+                "style": {
+                    "marginTop": 0,
+                    "marginBottom": 0,
+                    "marginLeft": 0,
+                    "marginRight": 0,
+                    "paddingTop": 0,
+                    "paddingBottom": 0,
+                    "paddingLeft": 0,
+                    "paddingRight": 0,
+                    "shadowColor": "rgba(0, 0, 0, 0)",
+                    "shadowOpacity": 0,
+                    "scaledShadowOpacity": 0,
+                    "shadowRadius": 0,
+                    "shadowOffset": {
+                        "width": 0,
+                        "height": 0
+                    },
+                    "position": "absolute",
+                    "left": "28.933333333333334%",
+                    "top": "18.4407796101949%",
+                    "display": "flex"
+                },
+                "capInsets": {},
+                "ParentId": "a5630ff4-e555-4a92-8543-854846763146",
+                "position": "absolute",
+                "edgeOffsets": 13.999999999999996
+            },
+            "children": [],
+            "id": "5c0780b7-595e-4964-9036-5b336048b0d3",
+            "thunkableVersion": 422,
+            "name": "Image4"
+        },
+        {
             "type": "Label",
             "translatedName": "Label",
             "reactType": "Text",
@@ -117,7 +163,7 @@
             "children": [],
             "id": "acc0a007-1c73-4a3c-8eb9-3d611cf72a6e",
             "thunkableVersion": 422,
-            "name": "Error"
+            "name": "Error_label"
         },
         {
             "type": "Button",
@@ -236,12 +282,12 @@
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
                 "Height": 45,
-                "Width": 311,
+                "Width": 313,
                 "Visible": true,
                 "X": 32,
-                "Y": 49,
+                "Y": 121,
                 "RelativeX": 32,
-                "RelativeY": 49,
+                "RelativeY": 121,
                 "ResizeMode": "STRETCH",
                 "style": {
                     "color": "rgba(0, 0, 0, 1)",
@@ -282,10 +328,7 @@
                 },
                 "ParentId": "a5630ff4-e555-4a92-8543-854846763146",
                 "position": "absolute",
-                "edgeOffsets": {
-                    "left": "7.866666666666666%",
-                    "top": "7.346326836581709%"
-                },
+                "edgeOffsets": 121,
                 "children": "This is my app"
             },
             "children": [],

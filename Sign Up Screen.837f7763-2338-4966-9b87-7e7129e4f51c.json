@@ -29,7 +29,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(204, 136, 136, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,9 +52,40 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(204, 136, 136, 1)"
     },
     "children": [
+        {
+            "type": "AdMobBanner",
+            "label": "AdMob Banner",
+            "translatedName": "AdMob Banner",
+            "properties": {
+                "Visible": true,
+                "AdUnitID": "ca-app-pub-3940256099942544/6300978111",
+                "AdUnitID_iOS": "ca-app-pub-3940256099942544/6300978111",
+                "TestMode": true,
+                "Width": 375,
+                "Height": 32,
+                "X": 0,
+                "ParentId": "837f7763-2338-4966-9b87-7e7129e4f51c",
+                "Y": 31,
+                "RelativeX": 0,
+                "RelativeY": 31,
+                "position": "absolute",
+                "edgeOffsets": 31,
+                "style": {
+                    "position": "absolute",
+                    "left": "3.8666666666666667%",
+                    "top": "85.00749625187406%",
+                    "display": "flex"
+                }
+            },
+            "children": [],
+            "id": "f69d5538-5eaa-459c-8eef-c3af10daec21",
+            "thunkableVersion": 423,
+            "name": "AdMob_Banner1"
+        },
         {
             "type": "Image",
             "translatedName": "Image",
@@ -405,8 +437,8 @@
                     "translatedName": "Text Input",
                     "properties": {
                         "Hint": "Type here",
-                        "Height": 31,
-                        "Width": 253,
+                        "Height": 33,
+                        "Width": 255,
                         "Visible": true,
                         "X": 126,
                         "Y": 142,
@@ -464,7 +496,7 @@
                     "id": "8dc5ea7b-7656-498e-a418-36f1613c6cd4",
                     "thunkableVersion": 421,
                     "bindings": null,
-                    "name": "confirm_pass_TI"
+                    "name": "Password_TI_2"
                 },
                 {
                     "type": "Label",
@@ -529,7 +561,7 @@
                     "children": [],
                     "id": "87d08eee-b757-4682-b46c-acbeebe8ce91",
                     "thunkableVersion": 421,
-                    "name": "Label1"
+                    "name": "confirm password label"
                 }
             ],
             "id": "79bbc0f6-a07e-4393-837d-4199074a0651",
@@ -742,8 +774,8 @@
                 "CustomFont": "",
                 "LineHeight": 1,
                 "Color": "rgba(0, 0, 0, 1)",
-                "Height": 24,
-                "Width": 122,
+                "Height": 26,
+                "Width": 124,
                 "Visible": true,
                 "X": 0,
                 "Y": 78,
