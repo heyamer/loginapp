@@ -1,82 +1,52 @@
-Certainly! I've updated the HTML file with the provided URL:
-
-```html
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>Mobile-Friendly Calendar</title>
+    <title>Phone-Friendly Calendar</title>
     <link href="https://cdn.dhtmlx.com/scheduler/edge/dhtmlxscheduler.css" rel="stylesheet" type="text/css">
     <script src="https://cdn.dhtmlx.com/scheduler/edge/dhtmlxscheduler.js" charset="utf-8"></script>
+    <script>
+        const specification = {
+            "url": "https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics",
+            "css": ".your-custom-styles { color: blue; }",
+            "tab": "month",
+            "viewport": {
+                "width": "device-width",
+                "initial-scale": 1.0
+            },
+            "mobileStyles": {
+                "body": {
+                    "font-size": "14px"
+                },
+                "@media only screen and (max-width: 768px)": {
+                    "body": {
+                        "font-size": "12px"
+                    }
+                }
+            }
+        };
+
+        document.addEventListener("DOMContentLoaded", function () {
+            scheduler.init('scheduler_here', new Date(), specification.tab);
+            scheduler.load(specification.url, "ics");
+            scheduler.setCurrentView(scheduler._date, specification.tab);
+        });
+    </script>
     <style>
         body {
             margin: 0;
             padding: 0;
             font-family: 'Helvetica', sans-serif;
-            background-color: Open Web Calendar;
         }
-
-        /* Mobile styles */
-        @media only screen and (max-width: 768px) {
-            body {
-                font-size: 14px; /* Adjust font size for smaller screens */
-            }
-
-            /* Add other mobile-specific styles here */
-        }
-
-        /* Your provided CSS */
-        .event,
-        .dhx_cal_tab.active,
-        .dhx_cal_tab.active:hover {
-            background-color: Open Web Calendar;
-        }
-
-        .dhx_month_head,
-        .dhx_cal_tab,
-        .dhx_cal_today_button {
-            color: Open Web Calendar;
-        }
-
-        .dhx_cal_tab,
-        .dhx_cal_tab.active {
-            border-color: Open Web Calendar;
-        }
-
-        .dhx_month_body,
-        .dhx_month_head,
-        .dhx_cal_container {
-            background-color: Open Web Calendar;
-        }
-
-        /* Add the provided CSS here */
     </style>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
     <div id="scheduler_here" class="dhx_cal_container" style='width:100%; height:100%;'>
         <div class="dhx_cal_navline">
-            <div class="dhx_cal_tab" name="agenda_tab" id="agenda_tab"></div>
+            <div class="dhx_cal_tab" name="month_tab"></div>
         </div>
         <div class="dhx_cal_header"></div>
         <div class="dhx_cal_data"></div>
     </div>
-
-    <script>
-        // Initialize DHTMLX Scheduler
-        scheduler.init('scheduler_here', new Date(), "month");
-
-        // Load events from the provided URL
-        scheduler.load("https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics", "ics");
-
-        // Switch to the agenda view
-        scheduler.setCurrentView(scheduler._date, "agenda");
-    </script>
 </body>
-
 </html>
-```
-
-Now, the HTML file uses the specified URL for loading calendar events. Adjust any other details as needed for your use case.
