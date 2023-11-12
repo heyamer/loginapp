@@ -1,52 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Phone-Friendly Calendar</title>
-    <link href="https://cdn.dhtmlx.com/scheduler/edge/dhtmlxscheduler.css" rel="stylesheet" type="text/css">
-    <script src="https://cdn.dhtmlx.com/scheduler/edge/dhtmlxscheduler.js" charset="utf-8"></script>
-    <script>
-        const specification = {
-            "url": "https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics",
-            "css": ".your-custom-styles { color: blue; }",
-            "tab": "month",
-            "viewport": {
-                "width": "device-width",
-                "initial-scale": 1.0
-            },
-            "mobileStyles": {
-                "body": {
-                    "font-size": "14px"
-                },
-                "@media only screen and (max-width: 768px)": {
-                    "body": {
-                        "font-size": "12px"
-                    }
-                }
-            }
-        };
+{
+  "url": "https://www.calendarlabs.com/ical-calendar/ics/46/Germany_Holidays.ics",
+  "css": ".event, 
+.dhx_cal_tab.active, 
+.dhx_cal_tab.active:hover {
+    background-color: Open Web Calendar;
+} 
 
-        document.addEventListener("DOMContentLoaded", function () {
-            scheduler.init('scheduler_here', new Date(), specification.tab);
-            scheduler.load(specification.url, "ics");
-            scheduler.setCurrentView(scheduler._date, specification.tab);
-        });
-    </script>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Helvetica', sans-serif;
-        }
-    </style>
-</head>
-<body>
-    <div id="scheduler_here" class="dhx_cal_container" style='width:100%; height:100%;'>
-        <div class="dhx_cal_navline">
-            <div class="dhx_cal_tab" name="month_tab"></div>
-        </div>
-        <div class="dhx_cal_header"></div>
-        <div class="dhx_cal_data"></div>
-    </div>
-</body>
-</html>
+.dhx_month_head, 
+.dhx_cal_tab, 
+.dhx_cal_today_button {
+    color: Open Web Calendar;
+} 
+
+.dhx_cal_tab, 
+.dhx_cal_tab.active {
+    border-color: Open Web Calendar;
+}
+
+.dhx_month_body, 
+.dhx_month_head, 
+.dhx_cal_container {
+    background-color: Open Web Calendar;
+}
+
+/* General body styles */
+body {
+    font-family: 'Helvetica', sans-serif;
+    /* Add other general styles here */
+}
+
+/* Mobile styles */
+@media only screen and (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust font size for smaller screens */
+    }
+
+    /* Add other mobile-specific styles here */
+}
+  "tab": "agenda"
+}
